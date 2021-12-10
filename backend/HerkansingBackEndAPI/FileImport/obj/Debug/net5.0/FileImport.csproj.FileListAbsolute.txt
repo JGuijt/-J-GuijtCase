@@ -1,0 +1,12 @@
+N:\BELASTINGDIENST\HerkansingBelastingdienstRepo\backend\HerkansingBackEndAPI\FileImport\bin\Debug\net5.0\FileImport.deps.json
+N:\BELASTINGDIENST\HerkansingBelastingdienstRepo\backend\HerkansingBackEndAPI\FileImport\bin\Debug\net5.0\FileImport.dll
+N:\BELASTINGDIENST\HerkansingBelastingdienstRepo\backend\HerkansingBackEndAPI\FileImport\bin\Debug\net5.0\ref\FileImport.dll
+N:\BELASTINGDIENST\HerkansingBelastingdienstRepo\backend\HerkansingBackEndAPI\FileImport\bin\Debug\net5.0\FileImport.pdb
+N:\BELASTINGDIENST\HerkansingBelastingdienstRepo\backend\HerkansingBackEndAPI\FileImport\obj\Debug\net5.0\FileImport.csproj.AssemblyReference.cache
+N:\BELASTINGDIENST\HerkansingBelastingdienstRepo\backend\HerkansingBackEndAPI\FileImport\obj\Debug\net5.0\FileImport.GeneratedMSBuildEditorConfig.editorconfig
+N:\BELASTINGDIENST\HerkansingBelastingdienstRepo\backend\HerkansingBackEndAPI\FileImport\obj\Debug\net5.0\FileImport.AssemblyInfoInputs.cache
+N:\BELASTINGDIENST\HerkansingBelastingdienstRepo\backend\HerkansingBackEndAPI\FileImport\obj\Debug\net5.0\FileImport.AssemblyInfo.cs
+N:\BELASTINGDIENST\HerkansingBelastingdienstRepo\backend\HerkansingBackEndAPI\FileImport\obj\Debug\net5.0\FileImport.csproj.CoreCompileInputs.cache
+N:\BELASTINGDIENST\HerkansingBelastingdienstRepo\backend\HerkansingBackEndAPI\FileImport\obj\Debug\net5.0\FileImport.dll
+N:\BELASTINGDIENST\HerkansingBelastingdienstRepo\backend\HerkansingBackEndAPI\FileImport\obj\Debug\net5.0\ref\FileImport.dll
+N:\BELASTINGDIENST\HerkansingBelastingdienstRepo\backend\HerkansingBackEndAPI\FileImport\obj\Debug\net5.0\FileImport.pdb

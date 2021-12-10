@@ -1,0 +1,51 @@
+# CASE-J-
+
+Frontend:
+Angular verwijst voor uploaden van de file naar:
+"https://localhost:44305/api/CursusDb" in file-upload.service.ts
+voor het ophalen van de cursussen naar
+"https://localhost:44305/api/CursusDb" in cursus.service.ts
+en draait zelf op http://localhost:4200/
+
+Backend
+web api draait op
+https://localhost:44305/api/CursusDb
+
+navigeren:
+Voor het zien van het cursusoverzicht: http://localhost:4200/Cursussen
+Voor het uploaden van een file: http://localhost:4200/Upload
+
+Voordat de alles draait moet eerst de database opgezet worden.
+De models voor de database zijn te vinden in de Models folder, en bestaan uit een Cursus en een CursusInstantie class.
+De CursusContext is te vinden in de Data folder.
+Voor het opzetten moet men eerst een migratie aanmaken.
+Dit is te doen door in de Package Manager Console het command: Add-Migration _InitialCreate_ uit te voeren.
+Daarna Update-Database
+Hierbij zou de database correct aangemaakt moeten wezen.
+
+Momenteel is de database leeg. Het kan handmatig gevuld worden, of er kan een file geupload worden.
+Hiervoor moeten eerst de applicaties gestart worden.
+Zelf heb ik gebruikt gemaakt van Visual Studio Code voor de Frontend, en Visual Studio voor de Backend.
+De webapi is te starten in debug modus door F5 aan te tikken, de debug knop bovenin met het groene pijltje of via het menu Build>Start Debugging. (starten zonder debuggen mag ook). Zorg er wel voor dat de IIS opgestart word en niet de andere projecten.
+
+Voor het opstarten van Angular ga ik er van uit dat Angular al geinstalleerd is. 
+Zo niet, is dat dat te doen door in een terminal in Visual Code "npm install -g @angular/cli" in te voeren.
+Als het geinstalleerd is kan het project gestart worden. Daarvoor moet wel eerst naar de juiste folder genavigeerd worden. 
+De juiste locatie is te vinden in "\frontend\AngularFront" vanaf  de plek waar je het binnengehaald hebt.
+Zodra men via de terminal naar deze locatie genavigeerd is kan het gestart worden met het command "ng serve".
+
+Zodra deze 2 projecten allebei gestart zijn kan je de frontend bereiken via "http://localhost:4200/"
+Het cursusoverzicht is te zien via "http://localhost:4200/Cursussen", momenteel nog leeg.
+Je kan nu een file uploaden via "http://localhost:4200/Upload". Lokaal een file selecteren, en op de upload klikken. Zolang de file in het juiste formaat is zal deze worden toegevoegd aan de database. En vanaf dat moment ook te zien in het cursusoverzicht, de losse data voor het cursusoverzicht is ook te bekijken op "https://localhost:44305/api/CursusDb".
+
+
+
+Lijst Nuget
+Microsoft.AspNet.WebApi.Cors( 5.2.6)
+Microsoft.EntityFrameworkCore(5.0.12)
+Microsoft.EntityFrameworkCore.Design(5.0.12)
+Microsoft.EntityFrameworkCore.SqlServer(5.0.12)
+Microsoft.EntityFrameworkCore.Tools(5.0.12)
+Microsoft.VisualStudio.Web.CodeGeneration.Design(5.0.2)
+
+

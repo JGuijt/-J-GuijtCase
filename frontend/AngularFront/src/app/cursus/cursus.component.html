@@ -1,0 +1,12 @@
+
+ <table  class="table table-striped">
+    <tr>
+        <th>StartDatum</th>
+        <th>Duur</th>
+        <th>Titel</th>
+    </tr>
+    <tr *ngFor= "let cursus of cursussen" >
+        <td>{{cursus.startDatum | date : 'dd/MM/yyyy' }}</td>
+        <td>{{cursus.duur}}</td>
+        <td>{{cursus.titel}}</td>
+    </tr>

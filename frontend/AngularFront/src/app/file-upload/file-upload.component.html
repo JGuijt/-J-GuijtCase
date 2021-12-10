@@ -1,0 +1,10 @@
+
+
+<input class="form-control" type="file" (change)="onChange($event)">
+<button (click)="onUpload()">Invoeren</button>
+
+
+<div></div>
+
+
+<div *ngIf="reqResponse?.length > 0">Er zijn {{reqResponse[0]}} cursussen en {{reqResponse[1]}} cursusinstanties toegevoegd</div>

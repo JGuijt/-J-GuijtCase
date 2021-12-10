@@ -1,0 +1,24 @@
+Mijn backlog bestond uit de eerste 4 punten.
+
+1.1 - Basis-functionaliteit om cursussen te importeren en te tonen (Walking Skeleton)	1	1	Cursusoverzicht tonen	Lijst tonen	Ingeplande cursusinstanties bekijken
+1.2 - Basis-functionaliteit om cursussen te importeren en te tonen (Walking Skeleton)	2	2	Cursussen invoeren	file selecteren	tekstbestand selecteren
+1.3 - Basis-functionaliteit om cursussen te importeren en te tonen (Walking Skeleton)	2	2	Cursussen invoeren	importeren	cursusplanning importeren
+1.4 - Basis-functionaliteit om cursussen te importeren en te tonen (Walking Skeleton)	2	2	Cursussen invoeren	resultaat melden	Resultaat bekijken
+
+Planning
+Maandag:
+1.1 Begonnen met het eerste item, Angular en backend opzetten. Data werd nog gemockt.
+Dinsdag:
+1.2, starten 1.3. Starten met de volgende items, file selecteren. Begonnen met importeren van de cursusplanning. Database opzetten.
+Woensdag:
+1.3 Verder gegaan met het importeren van de cursusplannning
+Donderdag:
+1.1, 1.3 Opnieuw naar het tonen van het overzicht gaan kijken omdat m'n database niet de juiste opzet had. Daardoor ook het importeren moeten herzien.
+Vrijdag:
+(1.3), 1.4 Handleiding schrijven, nog even verder met unittesten voor 1.3. Mogelijk nog kijken naar 1.4, zonder de rest te breken
+
+Resultaten
+Maandag: Kon een overzicht tonen, maar was gemockte data.
+Dinsdag: File selecteren afgerond.
+Donderdag: importeren en database functioneel goed afgerond.
+Vrijdag: 1.4 afgerond, na importeren worden het aantal toegevoegde curssussen en instanties getoont.
